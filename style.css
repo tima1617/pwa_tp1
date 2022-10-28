@@ -1,0 +1,82 @@
+body {
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 30px;
+}
+
+h2 {
+  margin: 0 0 15px;
+}
+
+.button {
+  border-radius: 0 0 20px 20px;
+  background: #a1a1a1;
+  transition: 0.5s;
+  margin: 5px;
+  width: 15%;
+  padding: 5px 0px;
+}
+
+.button:hover {
+  background: #2b2b2b;
+  color: white;
+  border-width: 0.2px;
+  border: solid;
+}
+
+.logo {
+  margin-top: 15px;
+  width: 10%;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: auto;
+  justify-content: center;
+  list-style-type: none;
+}
+
+li {
+  max-width: 25%;
+  border: 3px solid;
+  border-color: rgb(206, 206, 206);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.card {
+  display: flex;
+}
+
+.card img {
+  width: 40%;
+}
+
+.film_name {
+  border-radius: 20px 20px 0 0;
+  font-size: 15px;
+  margin: 5px;
+  width: 15%;
+  padding: 5px 0px;
+  outline: none;
+  text-align: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+p {
+  margin-left: 10px;
+}
