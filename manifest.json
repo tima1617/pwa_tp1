@@ -1,0 +1,18 @@
+{
+  "name": "What Watch",
+  "short_name": "WtWt",
+  "description": "This application can help the user to find a film with his name",
+  "dir": "Ltr",
+  "lang": "fr",
+  "background_color": "black",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/logo.jpg",
+      "type": "logo.jpg",
+      "sizes": "279x279"
+    }
+  ]
+}
